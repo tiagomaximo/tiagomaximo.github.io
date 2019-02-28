@@ -122,11 +122,6 @@
 															After Shool Program
 														</a>
 													</li>
-													<li class="">
-														<a class="nav-link" href="minutes.html">
-															Minutes
-														</a>
-													</li>
 												</ul>
 											</nav>
 										</div>
@@ -145,33 +140,20 @@
 			</header>
 
 			<div role="main" class="main">
-				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
-				<div id="googlemaps" class="google-map"></div>
+				
 
 				<div class="container">
 
 					<div class="row">
 						<div class="col-lg-6">
-							<h4 class="heading-primary mt-4"><strong>Graham Bruce Elementary School</strong></h4>
+							<h4 class="heading-primary mt-4"><strong>Minutes</strong></h4>
 							<ul class="list list-icons list-icons-style-3 mt-4">
-								<li><i class="fa fa-map-marker"></i> <strong>Address:</strong> 3633 Tanner St., Vancouver BC V5R 5P7</li>
-								<li><i class="fa fa-phone"></i> <strong>Phone:</strong> (604) 713-4778<strong> | Fax:</strong> (604) 713-4780</li>
-								<li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:grahambrucepac@gmail.com">grahambrucepac@gmail.com</a></li>
+								<li><a href="content/2019_01_24 MINUTES.pdf" target="_blank"><i class="fa fa-download"></i> <strong>January 24th, 2019</strong></a></li>
+								<li><a href="content/2018_11_22 MINUTES.pdf" target="_blank"><i class="fa fa-download"></i> <strong>November 22th, 218</strong></a></li>
+								<li><a href="content/2018_10_25 MINUTES.pdf" target="_blank"><i class="fa fa-download"></i> <strong>October 25th, 2018</strong></a></li>
+								<li><a href="content/2018_09_26 MINUTES.pdf" target="_blank"><i class="fa fa-download"></i> <strong>September 26th, 2018</strong></a></li>
 							</ul>
 							<hr>
-							<h4 class="heading-primary"><strong>Parent Advisory Council</strong></h4>
-							<ul class="list list-icons list-dark mt-4">
-								<li><i class="fa fa-address-card-o"></i> PAC Chair – Vince Sharma</li>
-								<li><i class="fa fa-address-card-o"></i> Treasurer – Danica Henry</li>
-								<li><i class="fa fa-address-card-o"></i> Secretary –  Anjula Joshi</li>
-								<li><i class="fa fa-address-card-o"></i> Event and Sponsorship Coordinator — Priscilla Deer</li>
-								<li><i class="fa fa-address-card-o"></i> Social Media Coordinator — Tiago Maximo</li>
-								<li><strong>Vacant</strong></li>
-								<li><i class="fa fa-address-card-o"></i> Vice Chair – Open</li>
-								<li><i class="fa fa-address-card-o"></i> Grade 7 Parent Representative  – Open</li>
-								<li><i class="fa fa-address-card-o"></i> Volunteer Coordinator - Open</li>
-								<li><i class="fa fa-address-card-o"></i> Donations Coordinator - Open</li>
-							</ul>
 							<br /><br /><br />
 						</div>
 					</div>
@@ -207,73 +189,6 @@
 		
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
-
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8_LJJ14I2RnfyrTCZ7ylMZ_oT92j-igU"></script>
-		<script>
-
-			/*
-			Map Settings
-
-				Find the Latitude and Longitude of your address:
-					- http://universimmedia.pagesperso-orange.fr/geo/loc.htm
-					- http://www.findlatitudeandlongitude.com/find-address-from-latitude-and-longitude/
-
-			*/
-
-			// Map Markers
-			var mapMarkers = [{
-				address: "3633 Tanner St., Vancouver BC - V5R 5P7",
-				html: "<strong>Graham Bruce Elementary School</strong><br>3633 Tanner St., Vancouver BC",
-				icon: {
-					image: "img/pin.png",
-					iconsize: [26, 46],
-					iconanchor: [12, 46]
-				},
-				popup: true
-			}];
-
-			// Map Initial Location
-			var initLatitude = 49.2423169;
-			var initLongitude = -123.0275978;
-
-			// Map Extended Settings
-			var mapSettings = {
-				controls: {
-					panControl: true,
-					zoomControl: true,
-					mapTypeControl: true,
-					scaleControl: true,
-					streetViewControl: true,
-					overviewMapControl: true
-				},
-				scrollwheel: false,
-				markers: mapMarkers,
-				latitude: initLatitude,
-				longitude: initLongitude,
-				zoom: 16
-			};
-
-			var map = $('#googlemaps').gMap(mapSettings);
-
-			// Map text-center At
-			var mapCenterAt = function(options, e) {
-				e.preventDefault();
-				$('#googlemaps').gMap("centerAt", options);
-			}
-
-		</script>
-
-		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		
-			ga('create', 'UA-12345678-1', 'auto');
-			ga('send', 'pageview');
-		</script>
-		 -->
 
 	</body>
 </html>
